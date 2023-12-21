@@ -1,0 +1,45 @@
+.axis line{
+    stroke: #0CDA75;
+}
+
+.axis path{
+    stroke: #0CDA75;
+}
+
+.axis text{
+    fill: #0CDA75;
+}
+
+text {
+    stroke: #0CDA75;
+}
+
+.data-point {
+    fill: #0CDA75;
+    stroke: #ffffff;
+}
+
+.text-label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 6px;
+    font-size: 12px;
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #111; /* Dark background color */
+}
