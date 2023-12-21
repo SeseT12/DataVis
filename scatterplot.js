@@ -131,9 +131,7 @@ export function showPlot(svg, datasets, genre, x, y, height, width, marginBottom
     //const shapes = ["circle", "rect", "triangle"]
     const genreDatasetIndices = {"Pop" : 1, "Rock" : 0, "Latin" : 2, "Rap" : 3, "R&B" : 4, "EDM" : 5};
     const genreDatasets = datasets.slice(genreDatasetIndices[genre] * 4, genreDatasetIndices[genre] * 4 + 4);
-    console.log(genreDatasets);
     genreDatasets.forEach((data, index) => {
-        console.log(data);
         if(index === 0){
             svg.selectAll("circle")
                 .data(data)
